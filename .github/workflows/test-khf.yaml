@@ -1,0 +1,19 @@
+name: Test KHF
+run-name: ${{ github.actor }}
+
+# Trigger on pushes that affect the KHF directory
+on:
+  push:
+    paths:
+      - elixir/khf/**
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: erlef/setup-beam@v1
+        with:
+          otp-version: 25.3.2
+          elixir-version: 1.15.5
+      - run: mix test
