@@ -8,12 +8,13 @@ on:
       - elixir/khf/**
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
+  test-khf:
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v4
       - uses: erlef/setup-beam@v1
         with:
-          otp-version: 25.3.2
-          elixir-version: 1.15.5
-      - run: mix test
+          otp-version: 25
+          elixir-version: 1.15
+      - working-directory: elixir/khf
+        run: mix test

@@ -1,6 +1,6 @@
 defmodule Khf2 do
   @moduledoc """
-  Documentation for `Khf1`.
+  Documentation for `Khf2`.
   @author "Pálvölgyi Domonkos <palvolgyid@edu.bme.hu>"
   @date "2023-09-18"
 
