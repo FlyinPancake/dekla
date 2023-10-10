@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  livebook:
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    environment:
+      LIVEBOOK_PASSWORD: "1234567890-="
+    volumes:
+      - ./livebooks:/data
+    user: "1000:1000"
+    image: ghcr.io/livebook-dev/livebook
