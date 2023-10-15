@@ -52,4 +52,12 @@ defmodule Khf3Test do
            ) ===
              {%{err_rows: [4, 5]}, %{err_cols: [4, 5]}, %{err_touch: [{4, 3}, {5, 4}]}}
   end
+
+  test "Real Test 1" do
+    Khf3.check_sol(
+      {[1, 2, 2, 0, 2, 1, 1], [1, 2, 1, 2, 0, 1, 1, 1],
+       [{1, 4}, {1, 8}, {2, 2}, {3, 3}, {3, 6}, {5, 2}, {5, 5}, {5, 7}, {7, 3}]},
+      [:w, :s, :s, :e, :n, :w, :w, :s, :w]
+    )
+  end
 end
