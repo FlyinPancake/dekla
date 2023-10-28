@@ -1,0 +1,1282 @@
+json([jsonrpc=2.0,id=0,result=true])
+json([jsonrpc=2.0,id=0,result=json([1=json([status=success,type=query,bindings=json([]),output=,predicate_atoms=[predicate_options:retractall_predicate_options,predicate_options:check_predicate_options,predicate_options:derive_predicate_options,predicate_options:derived_predicate_options(A),predicate_options:check_predicate_options(A),predicate_options:predicate_options(A,B,C),predicate_options:assert_predicate_options(A,B,C,D),predicate_options:current_predicate_options(A,B,C),predicate_options:current_option_arg(A,B),predicate_options:derived_predicate_options(A,B,C),predicate_options:current_predicate_option(A,B,C),predicate_options:check_predicate_option(A,B,C),quintus:skip_line,quintus:pow(A,B,C),quintus:tan(A,B),quintus:sin(A,B),quintus:unix(A),quintus:raise_exception(A),quintus:compile(A),quintus:midstring(A,B,C),quintus:midstring(A,B,C,D,E),quintus:current_stream(A,B,C),quintus:prolog_flag(A,B),quintus:no_style_check(A),quintus:skip_line(A),quintus:sqrt(A,B),quintus:log(A,B),quintus:acos(A,B),quintus:atan2(A,B,C),quintus:floor(A,B),quintus:log10(A,B),quintus:cos(A,B),quintus:abs(A,B),quintus:on_exception(A,B,C),quintus:midstring(A,B,C,D),quintus:atom_char(A,B),quintus:midstring(A,B,C,D,E,F),quintus:date(A),quintus:stream_position(A,B,C),quintus:genarg(A,B,C),quintus:mode(A),quintus:simple(A),quintus:sign(A,B),quintus:asin(A,B),quintus:otherwise,quintus:round(A,B),quintus:atan(A,B),quintus:ceiling(A,B),json:json_write_dict(A,B,C),json:json_read_dict(A,B,C),json:json_write_dict(A,B),json:atom_json_dict(A,B,C),json:json_read_dict(A,B),json:json_read(A,B,C),json:is_json_term(A,B),json:atom_json_term(A,B,C),json:json_write(A,B),json:json_write(A,B,C),json:json_read(A,B),json:is_json_term(A),codesio:with_output_to_codes(A,B,C),codesio:open_codes_stream(A,B),codesio:read_from_codes(A,B),codesio:write_term_to_codes(A,B,C),codesio:write_to_codes(A,B),codesio:format_to_codes(A,B,C),codesio:with_output_to_codes(A,B),codesio:read_term_from_codes(A,B,C),codesio:with_output_to_codes(A,B,C,D),codesio:write_to_codes(A,B,C),codesio:format_to_codes(A,B,C,D),codesio:write_term_to_codes(A,B,C,D),record:current_record(A,B),record:current_record_predicate(A,B),record:record(A),swi_option:merge_options(A,B,C),swi_option:select_option(A,B,C),swi_option:option(A,B),swi_option:dict_options(A,B),swi_option:meta_options(A,B,C),swi_option:select_option(A,B,C,D),swi_option:option(A,B,C),error:uninstantiation_error(A),error:must_be(A,B),error:existence_error(A,B,C),error:is_of_type(A,B),error:domain_error(A,B),error:syntax_error(A),error:resource_error(A),error:permission_error(A,B,C),error:representation_error(A),error:type_error(A,B),error:existence_error(A,B),error:instantiation_error(A),error:current_type(A,B,C),shlib:load_foreign_library(A),shlib:reload_foreign_libraries,shlib:use_foreign_library(A),shlib:unload_foreign_library(A,B),shlib:load_foreign_library(A,B),shlib:use_foreign_library(A,B),shlib:unload_foreign_library(A),shlib:current_foreign_library(A,B),read_util:read_line_to_string(A,B),read_util:read_stream_to_codes(A,B,C),read_util:read_line_to_codes(A,B,C),read_util:read_file_to_terms(A,B,C),read_util:read_file_to_string(A,B,C),read_util:read_file_to_codes(A,B,C),read_util:read_stream_to_codes(A,B),read_util:read_line_to_codes(A,B),jupyter:set_prolog_impl(A),jupyter:trace(A),jupyter:print_table(A),jupyter:print_queries(A),jupyter:print_sld_tree(A),jupyter:print_transition_graph(A,B,C,D),jupyter:cut,jupyter:retry,jupyter:update_completion_data,jupyter:print_table(A,B),jupyter:print_variable_bindings,jupyter:print_query_time,jupyter:print_stack,jupyter:help,memory_file:memory_file_to_string(A,B,C),memory_file:memory_file_to_atom(A,B,C),memory_file:memory_file_to_codes(A,B),memory_file:memory_file_line_position(A,B,C,D),memory_file:atom_to_memory_file(A,B),memory_file:insert_memory_file(A,B,C),memory_file:open_memory_file(A,B,C),memory_file:size_memory_file(A,B),memory_file:free_memory_file(A),memory_file:utf8_position_memory_file(A,B,C),memory_file:memory_file_substring(A,B,C,D,E),memory_file:memory_file_to_codes(A,B,C),memory_file:memory_file_to_string(A,B),memory_file:memory_file_to_atom(A,B),memory_file:open_memory_file(A,B,C,D),memory_file:delete_memory_file(A,B,C),memory_file:size_memory_file(A,B,C),memory_file:new_memory_file(A),lists:select(A,B,C),lists:subset(A,B),lists:member(A,B),lists:is_set(A),lists:numlist(A,B,C),lists:same_length(A,B),lists:nth1(A,B,C),lists:selectchk(A,B,C,D),lists:proper_length(A,B),lists:select(A,B,C,D),lists:nth0(A,B,C),lists:append(A,B,C),lists:intersection(A,B,C),lists:min_member(A,B),lists:last(A,B),lists:delete(A,B,C),lists:memberchk(A,B),lists:union(A,B,C),lists:max_member(A,B),lists:nth1(A,B,C,D),lists:nextto(A,B,C),lists:nth0(A,B,C,D),lists:min_member(A,B,C),lists:clumped(A,B),lists:prefix(A,B),lists:subtract(A,B,C),lists:list_to_set(A,B),lists:min_list(A,B),lists:max_member(A,B,C),lists:flatten(A,B),lists:max_list(A,B),lists:permutation(A,B),lists:selectchk(A,B,C),lists:append(A,B),lists:sum_list(A,B),lists:reverse(A,B),A=\=B,sub_string(A,B,C,D,E),get_string_code(A,B,C),put_char(A,B),string_chars(A,B),get_byte(A),dwim_predicate(A,B),float_class(A,B),qcompile(A,B),open_shared_object(A,B),halt,plus(A,B,C),read_string(A,B,C),text_to_string(A,B),peek_code(A),set_random(A),prolog_cut_to(A),between(A,B,C),nl(A),random_property(A),bounded_number(A,B,C),A<B,open_shared_object(A,B,C),put_byte(A,B),peek_char(A),initialization(A,B),A=<B,succ(A,B),string_bytes(A,B,C),arg(A,B,C),A*->B,false,fail,not(A),nl,put_code(A,B),peek_byte(A),open(A,B,C,D),open_string(A,B),string_code(A,B,C),throw(A),float(A),assert(A),format_time(A,B,C,D),format(A),catch_with_backtrace(A,B,C),put_byte(A),peek_byte(A,B),asserta(A),compiling,rational(A,B,C),flush_output,assertz(A),put_code(A),current_resource(A,B),shift(A),nb_linkarg(A,B,C),open_resource(A,B),put_char(A),atom_string(A,B),peek_code(A,B),register_iri_scheme(A,B,C),predicate_property(A,B),shift_for_copy(A),A=:=B,current_arithmetic_function(A),apply(A,B),flush_output(A),string_codes(A,B),peek_string(A,B,C),peek_char(A,B),atom(A),retract(A),get_char(A,B),statistics(A,B),autoload(A),atomic(A),setarg(A,B,C),current_predicate(A),redefine_system_predicate(A),A==B,get_byte(A,B),nb_setarg(A,B,C),compile_predicates(A),assert(A,B),divmod(A,B,C,D),sub_atom_icasechk(A,B,C),format_time(A,B,C),ground(A),nth_integer_root_and_remainder(A,B,C,D),close(A),prolog_alert_signal(A,B),A->B,open_resource(A,B,C),split_string(A,B,C,D),initialization A,get_code(A,B),meta_predicate A,set_input(A),set_output(A),collation_key(A,B),current_signal(A,B,C),source_file_property(A,B),deterministic(A),current_input(A),call(A,B,C,D,E,F),exists_source(A,B),clause(A,B),read_string(A,B,C,D,E),current_output(A),atomics_to_string(A,B,C),close(A,B),atomic_list_concat(A,B),float_parts(A,B,C,D),var_property(A,B),retractall(A),trim_stacks,at_halt(A),get_code(A),open(A,B,C),call(A,B,C,D,E,F,G),assertz(A,B),string_length(A,B),atomic_list_concat(A,B,C),prolog_stack_property(A,B),term_expansion(A,B),asserta(A,B),get_char(A),clause(A,B,C),read_term_with_history(A,B),copy_predicate_clauses(A,B),atomics_to_string(A,B),string_concat(A,B,C),trie_property(A,B),integer(A),cancel_halt(A),string(A),callable(A),line_count(A,B),atom_prefix(A,B),read_term(A,B),tty_get_capability(A,B,C),skip(A),true,attvar(A),atom_to_term(A,B,C),character_count(A,B),sig_atomic(A),put(A),abort,instance(A,B),call_residue_vars(A,B),copy_term(A,B,C,D),ttyflush,fast_write(A,B),style_check(A),get(A),call(A,B,C,D,E,F,G,H),nth_clause(A,B,C),line_position(A,B),fast_term_serialized(A,B),transaction(A),term_to_atom(A,B),tab(A,B),read_term(A,B,C),prompt(A,B),fast_read(A,B),call_continuation(A),term_string(A,B,C),byte_count(A,B),read_term_from_atom(A,B,C),tty_put(A,B),is_list(A),call(A),copy_term_nat(A,B,C,D),term_string(A,B),call_with_inference_limit(A,B,C),read_clause(A,B,C),tty_goto(A,B),get0(A),A>B,put_attr(A,B,C),current_trie(A),variant_sha1(A,B),get0(A,B),thread_create(A,B),set_flag(A,B),tty_size(A,B),rule(A,B),get(A,B),sort(A,B,C,D),catch(A,B,C),findall(A,B,C),term_hash(A,B),exists_source(A),absolute_file_name(A,B),A>=B,get_attr(A,B,C),variant_hash(A,B),tab(A),call(A,B,C,D,E),undo(A),current_key(A),source_file(A,B),sig_unblock(A),transaction(A,B),forall(A,B),get_flag(A,B),qcompile(A),del_attr(A,B),open_null_stream(A),call(A,B,C,D),?=(A,B),A is B,tnot(A),on_signal(A,B,C),skip(A,B),transaction(A,B,C),import_module(A,B),prolog_choice_attribute(A,B,C),set_prolog_flag(A,B),rule(A,B,C),at_end_of_stream(A),halt(A),call(A,B,C),call_cleanup(A,B),compound(A),put(A,B),erase(A),tmp_file_stream(A,B,C),current_op(A,B,C),message_to_string(A,B),unsetenv(A),current_predicate(A,B),op(A,B,C),fill_buffer(A),set_module(A),once(A),create_prolog_flag(A,B,C),call_shared_object_function(A,B),at_end_of_stream,call(A,B),sort(A,B),print_message_lines(A,B,C),compile_aux_clauses(A),prolog_frame_attribute(A,B,C),thread_join(A),call_cleanup(A,B,C),attach_packs(A),keysort(A,B),prolog_skip_level(A,B),visible(A),write_length(A,B,C),import(A),setup_call_cleanup(A,B,C),msort(A,B),told,prolog_skip_frame(A),recorded(A,B),A\=@=B,recordz(A,B,C),see(A),close_shared_object(A),dwim_match(A,B),A=@=B,add_import_module(A,B,C),@(A,B),recordz(A,B),tell(A),size_abstract_term(A,B,C),module(A),A,B,recorda(A,B,C),seeing(A),copy_term(A,B),stream_position_data(A,B,C),gc_file_search_cache(A),attach_packs(A,B),shell(A),recorda(A,B),seen,copy_term_nat(A,B),set_prolog_stack(A,B),getenv(A,B),strip_module(A,B,C),ignore(A),delete_import_module(A,B),append(A),current_module(A),findall(A,B,C,D),duplicate_term(A,B),working_directory(A,B),var(A),prolog_interrupt,set_prolog_gc_thread(A),set_stream_position(A,B),dynamic(A,B),telling(A),recorded(A,B,C),prolog_current_choice(A),garbage_collect,setenv(A,B),size_file(A,B),call_with_depth_limit(A,B,C),thread_wait(A,B),zip_file_info_(A,B,C),autoload(A,B),load_files(A,B),freeze(A,B),zipper_open_new_file_in_zip(A,B,C,D),A\=B,prolog,numbervars(A,B,C),thread_update(A,B),sig_pending(A),unload_file(A),access_file(A,B),sig_remove(A,B),reexport(A,B),write_term(A,B,C),time_file(A,B),numbervars(A,B,C,D),message_queue_destroy(A),unwrap_predicate(A,B),zipper_open_current(A,B,C),\+A,ensure_loaded(A),version(A),<meta-call>(A),thread_initialization A,!,use_module(A,B),make_library_index(A,B),engine_next(A,B),read_link(A,B,C),current_transaction(A),residual_goals(A),is_dict(A,B),thread_peek_message(A),acyclic_term(A),expand_file_search_path(A,B),writeln(A),nonvar(A),write_term(A,B),version,thread_setconcurrency(A,B),set_end_of_stream(A),thread_get_message(A),locale_create(A,B,C),zipper_goto(A,B),cyclic_term(A),nb_setval(A,B),read(A),initialize,reexport(A),make_library_index(A),write(A),break,nb_link_dict(A,B,C),engine_destroy(A),prolog_listen(A,B,C),is_dict(A),A\==B,writeq(A),get_dict(A,B,C),stream_pair(A,B,C),functor(A,B,C,D),number(A),use_module(A),export(A),snapshot(A),b_set_dict(A,B,C),prolog_debug(A),consult(A),reload_library_index,sig_block(A),nb_set_dict(A,B,C),with_tty_raw(A),prolog_nodebug(A),thread_get_message(A,B),copy_stream_data(A,B,C),current_char_conversion(A,B),seek(A,B,C,D),nonground(A,B),copy_term(A,B,C),autoload_path(A),put_dict(A,B,C),leash(A),thread_signal(A,B),thread_get_message(A,B,C),copy_stream_data(A,B),set_locale(A),compare(A,B,C),require(A),write_canonical(A),prolog_unlisten(A,B),current_locale(A),load_files(A),current_functor(A,B),unify_with_occurs_check(A,B),dict_create(A,B,C),thread_peek_message(A,B),char_conversion(A,B),module_property(A,B),subsumes_term(A,B),sleep(A),prolog_listen(A,B),dict_pairs(A,B,C),engine_create(A,B,C,D),locale_destroy(A),nb_delete(A),put_attrs(A,B),abolish_monotonic_tables,prolog_current_frame(A),engine_yield(A),[A|B],source_location(A,B),thread_send_message(A,B,C),message_queue_create(A,B),wait_for_input(A,B,C),noprotocol,is_thread(A),put_dict(A,B,C,D),frozen(A,B),is_stream(A),tracing,engine_next_reified(A,B),same_term(A,B),get_attrs(A,B),abolish_shared_tables,abolish_nonincremental_tables(A),abolish(A,B),read_pending_chars(A,B,C),thread_send_message(A,B),zip_unlock(A),protocola(A),.(A,B,C),thread_alias(A),print_message(A,B),functor(A,B,C),A@>B,mutex_create(A,B),thread_detach(A),A@>=B,message_queue_property(A,B),mutex_unlock_all,A@<B,zip_lock(A),message_queue_set(A,B),read_pending_codes(A,B,C),thread_affinity(A,B,C),protocol(A),engine_create(A,B,C),A@=<B,zip_open_stream(A,B,C),b_getval(A,B),mutex_create(A),var_number(A,B),compound_name_arguments(A,B,C),nb_linkval(A,B),set_prolog_IO(A,B,C),term_variables(A,B),dwim_match(A,B,C),zip_close_(A,B),protocolling(A),flag(A,B,C),prompt1(A),b_setval(A,B),setof(A,B,C),thread_statistics(A,B,C),prolog_load_context(A,B),source_file(A),print(A),compound_name_arity(A,B,C),absolute_file_name(A,B,C),message_queue_create(A),thread_property(A,B),mutex_trylock(A),with_output_to(A,B),engine_self(A),trace,locale_property(A,B),zip_clone(A,B),mutex_unlock(A),length(A,B),start_tabling(A,B,C),current_engine(A),notrace,get_single_char(A),nb_getval(A,B),sub_atom(A,B,C,D,E),mutex_destroy(A),set_system_IO(A,B,C),thread_join(A,B),del_attrs(A),start_subsumptive_tabling(A,B,C),A=..B,repeat,abolish(A),nb_current(A,B),mutex_property(A,B),mutex_lock(A),set_stream(A,B),trie_insert(A,B,C,D),default_module(A,B),not_exists(A),date_time_stamp(A,B),current_table(A,B),format(A,B),trie_gen(A,B),findnsols(A,B,C,D),term_variables(A,B,C),normalize_space(A,B),term_attvars(A,B),string_upper(A,B),setlocale(A,B,C),license(A,B),findnsols(A,B,C,D,E),trie_term(A,B),unifiable(A,B,C),rational(A),string_lower(A,B),undefined,term_singletons(A,B),stamp_date_time(A,B,C),upcase_atom(A,B),current_prolog_flag(A,B),expand_goal(A,B),downcase_atom(A,B),trie_gen(A,B,C),current_flag(A),abolish_private_tables,expand_term(A,B),format(A,B,C),writeln(A,B),abolish_all_tables,abolish_module_tables(A),license,code_type(A,B),wildcard_match(A,B,C),thread_local A,write(A,B),abolish_table_subgoals(A),known_licenses,char_type(A,B),volatile A,read(A,B),del_dict(A,B,C,D),answer_count_restraint,verbose_expansion(A),open_xterm(A,B,C,D,E),discontiguous A,directory_files(A,B),module_transparent A,garbage_collect_clauses,dcg_translate_rule(A,B,C,D),write_canonical(A,B),stream_property(A,B),get_dict(A,B,C,D,E),garbage_collect_atoms,det(A),wildcard_match(A,B),print(A,B),is_most_general_term(A),context_module(A),radial_restraint,setup_call_catcher_cleanup(A,B,C,D),license(A),non_terminal(A),expand_file_name(A,B),clause_property(A,B),writeq(A,B),table A,abolish_nonincremental_tables,print_toplevel_variables,noprofile(A),number_chars(A,B),profiler(A,B),trim_heap,start_abstract_tabling(A,B,C),prolog_to_os_filename(A,B),start_moded_tabling(A,B,C,D,E),notrace(A),phrase(A,B),use_foreign_library(A),exists_directory(A),current_format_predicate(A,B),untable(A),dcg_translate_rule(A,B),exists_file(A),current_atom(A),atom_codes(A,B),format_predicate(A,B),public A,file_directory_name(A,B),select_dict(A,B,C),is_engine(A),shell(A,B),with_mutex(A,B),atom_chars(A,B),thread_create(A,B,C),multifile A,file_base_name(A,B),make_directory(A),engine_fetch(A),atomic_concat(A,B,C),attach_packs,name(A,B),dynamic A,delete_directory(A),A>:<B,atom_concat(A,B,C),atom_length(A,B),term_hash(A,B,C,D),file_name_extension(A,B,C),trie_destroy(A),rename_file(A,B),delete_file(A),mutex_statistics,A:<B,A;B,trie_delete(A,B,C),reset_profiler,same_file(A,B),phrase(A,B,C),trie_new(A),atom_number(A,B),current_blob(A,B),tabled_call(A),trie_lookup(A,B,C),call_dcg(A,B,C),is_trie(A),thread_self(A),trie_update(A,B,C),is_absolute_file_name(A),trie_insert(A,B),expand_goal(A,B,C,D),thread_idle(A,B),bagof(A,B,C),A=B,memberchk(A,B),transaction_updates(A),engine_post(A,B),thread_exit(A),reset(A,B,C),expand_term(A,B,C,D),trie_insert(A,B,C),tmp_file(A,B),char_code(A,B),get_time(A),engine_post(A,B,C),blob(A,B),number_string(A,B),use_foreign_library(A,B),number_codes(A,B)]])])])
+json([jsonrpc=2.0,id=0,result=json([jupyter:cut/0=jupyter:cut or cut
+
+    Cuts off the choicepoints of the latest active query.
+
+    In general, the previous query is the active one.
+    However, the previous active query can be activated again.
+    This can be done by cutting off choicepoints with jupyter:cut/0.
+    This is also the case if a retry/0 encounters no further solutions.
+
+    A further retry/0 call causes backtracking of the previous active goal.
+
+    Needs to be the only goal of a query.,jupyter:halt/0=jupyter:halt or halt
+
+    Shuts down the running Prolog process.
+
+    The next time code is to be executed, a new process is started.
+    Everything defined in the database before does not exist anymore.
+
+    Corresponds to the functionality of halt/0.
+    Has the same effect as interrupting or restarting the Jupyter kernel.,jupyter:help/0=jupyter:help
+
+    Outputs the documentation for all predicates from module jupyter.,jupyter:print_query_time=jupyter:print_query_time
+
+    Prints the latest previous query and its runtime in milliseconds.,jupyter:print_queries/1=jupyter:print_queries(+Ids)
+
+    Prints previous queries which were executed in requests with IDs in Ids.
+
+    Any $Var terms might be replaced by the variable's name.
+    This is the case if a previous query with ID in Ids contains Var.
+    Otherwise, $Var is not replaced.,jupyter:print_sld_tree/1=jupyter:print_sld_tree(+Goal)
+
+    Executes the goal Goal and prints a graph resembling its SLD tree.
+
+    Needs to be the only goal of a query.,jupyter:print_stack/0=jupyter:print_stack
+
+    Prints the current stack used for jupyter:retry/0 and jupyter:cut/0.
+    The active goal is marked by a preceding '->'.
+
+    Needs to be the only goal of a query.,jupyter:print_table/1=jupyter:print_table(+Goal)
+
+    Computes all results of the goal Goal with findall/3.
+    These are printed in a table.
+
+    Needs to be the only goal of a query.
+
+    Example: jupyter:print_table(prolog_flag(FlagName, Value)).,jupyter:print_table/2=jupyter:print_table(+ValuesLists, +VariableNames)
+
+    Prints a table of the values in ValuesLists.
+
+    ValuesLists is a list of lists of the same length.
+    Each list corresponds to one line of the table.
+
+    VariableNames is used to fill the header of the table.
+    If VariableNames=[], capital letters are used.
+    Otherwise, VariableNames needs to be a list of ground terms.
+    It needs to be of the same length as the values lists.
+
+    Needs to be the only goal of a query.
+
+    Can be used with a predicate like findall/3, but not directly.
+    Instead, a previous binding can be accessed with a $Var term.
+
+    Examples:
+        jupyter:print_table([[10,100],[20,400],[30,900]], ['X', 'Y']).
+        jupyter:print_table($ResultLists, []).,jupyter:print_transition_graph/4=jupyter:print_transition_graph(+PredSpec, +FromIndex, +ToIndex, +LabelIndex)
+
+    Finds all solutions of the predicate with specification PredSpec.
+    Prints a graph interpreting the solutions as transitions.
+
+    PredSpec needs to be of the form PredName/PredArity.
+    Optionally, it can be module name expanded.
+
+    FromIndex and ToIndex point to predicate arguments used as nodes.
+    LabelIndex points to the argument providing a label for an edge.
+    If LabelIndex=0, no label is shown.
+
+    Needs to be the only goal of a query.,jupyter:print_variable_bindings/0=jupyter:print_variable_bindings
+
+    Prints variable bindings from previous queries.
+    For each variable, the latest value it was bound to is shown.
+
+    The variable value can be accessed with a $Var term by any query.
+    In that case, the term is replaced by the value.
+    If there is no previous value, an error message is printed.,jupyter:retry/0=jupyter:retry or retry
+
+    Causes backtracking of the latest active query.
+
+    In general, the previous query is the active one.
+    However, the previous active query can be activated again.
+    This can be done by cutting off choicepoints with jupyter:cut/0.
+    This is also the case if a retry/0 encounters no further solutions.
+
+    Needs to be the only goal of a query.,jupyter:set_prolog_impl/1=jupyter:set_prolog_impl(+PrologImplementationID)
+
+    Activates the Prolog implementation with ID PrologImplementationID.
+
+    Code in the same cell is executed with the previous implementation.
+
+    Needs to be the only goal of a query.,jupyter:trace/1=jupyter:trace(+Goal)
+
+    Prints the trace of the goal Goal.
+
+    By default, no port is leashed so that no user interaction is requested.
+    All previously set breakpoints are still active.
+
+    Needs to be the only goal of a query in order to work as expected.,jupyter:update_completion_data/0=jupyter:update_completion_data
+
+    Updates the predicate data used for code completion using Tab.
+
+    This is done by retrieving all built-in and exported predicates.
+    Needed to use completion for predicates from a newly loaded module.
+
+    Needs to be the only goal of a query.])])
+json([jsonrpc=2.0,id=1,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([])]),10=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([])]),11=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),12=json([status=success,type=query,bindings=json([ILs=[[]]]),output=[1-1][1-1][1-1][1-1][1-1][1-1][1-1][1-1]]),13=json([status=success,type=query,bindings=json([ILs=[[],[]]]),output=[1-1,2-1][1-1,2-1][1-1,2-1][1-1,2-1][1-1,2-1][1-1,2-1][1-1,2-1][1-1,2-1][2-1][2-1][2-1][2-1][2-1][2-1][2-1][2-1]])])])
+json([jsonrpc=2.0,id=2,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    print(E),
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D,
+    \+ member(_-_, E).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(_-A, B, C) :-
+    iranylistak(A-A, B, B, C).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [n, e, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),11=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),12=json([status=error,error=json([code= -4712,message=Exception,data=json([prolog_message=ERROR: print/2: Domain error: `stream_or_alias' expected, found `_508-_510',output=[1-1][1-1][1-1]])])]),13=json([status=error,error=json([code= -4712,message=Exception,data=json([prolog_message=ERROR: print/2: Domain error: `stream_or_alias' expected, found `_3584-_3586',output=[1-1,2-1][1-1,2-1][1-1,2-1]])])])])])
+json([jsonrpc=2.0,id=3,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    print(E),
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D,
+    print(F-G, E),
+    \+ member(F-G, E).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(_-A, B, C) :-
+    iranylistak(A-A, B, B, C).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [n, e, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),11=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),12=json([status=success,type=query,bindings=json([ILs=[[]]]),output=_56474-_56476[1-1]
+_56468-_56470[1-1]
+_56504-_56506[1-1]
+_56498-_56500[1-1]
+_56534-_56536[1-1]
+_56528-_56530[1-1]
+_56564-_56566[1-1]
+_56558-_56560[1-1]]),13=json([status=success,type=query,bindings=json([ILs=[[],[]]]),output=_59788-_59790[1-1,2-1]
+_59782-_59784[1-1,2-1]
+_59818-_59820[1-1,2-1]
+_59812-_59814[1-1,2-1]
+_59848-_59850[1-1,2-1]
+_59842-_59844[1-1,2-1]
+_59878-_59880[1-1,2-1]
+_59872-_59874[1-1,2-1]
+_59962-_59964[2-1]
+_59956-_59958[2-1]
+_59992-_59994[2-1]
+_59986-_59988[2-1]
+_60022-_60024[2-1]
+_60016-_60018[2-1]
+_60052-_60054[2-1]
+_60046-_60048[2-1]])])])
+json([jsonrpc=2.0,id=4,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    print(F-G),
+    print(E),
+    nl,
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D,
+    \+ member(F-G, E).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(_-A, B, C) :-
+    iranylistak(A-A, B, B, C).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [n, e, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),11=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),12=json([status=success,type=query,bindings=json([ILs=[[]]]),output=_51402-_51404[1-1]
+_51396-_51398[1-1]
+_51432-_51434[1-1]
+_51426-_51428[1-1]
+_51462-_51464[1-1]
+_51456-_51458[1-1]
+_51492-_51494[1-1]
+_51486-_51488[1-1]]),13=json([status=success,type=query,bindings=json([ILs=[[],[]]]),output=_54716-_54718[1-1,2-1]
+_54710-_54712[1-1,2-1]
+_54746-_54748[1-1,2-1]
+_54740-_54742[1-1,2-1]
+_54776-_54778[1-1,2-1]
+_54770-_54772[1-1,2-1]
+_54806-_54808[1-1,2-1]
+_54800-_54802[1-1,2-1]
+_54890-_54892[2-1]
+_54884-_54886[2-1]
+_54920-_54922[2-1]
+_54914-_54916[2-1]
+_54950-_54952[2-1]
+_54944-_54946[2-1]
+_54980-_54982[2-1]
+_54974-_54976[2-1]])])])
+json([jsonrpc=2.0,id=5,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    print(F-G),
+    print(E),
+    nl,
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D,
+    \+ member(F-G, E).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(A-B, C, D) :-
+    iranylistak(A-B, C, C, D).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [n, e, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),11=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),12=json([status=success,type=query,bindings=json([ILs=[[e,s]]]),output=_46930-_46932[1-1]
+_46924-_46926[1-1]
+_46960-_46962[1-1]
+_47014-_47016[1-1]
+_47068-_47070[1-1]
+_47062-_47064[1-1]]),13=json([status=success,type=query,bindings=json([ILs=[[e,s],[n,e,s]]]),output=_49834-_49836[1-1,2-1]
+_49828-_49830[1-1,2-1]
+_49864-_49866[1-1,2-1]
+_49918-_49920[1-1,2-1]
+_49972-_49974[1-1,2-1]
+_49966-_49968[1-1,2-1]
+_50056-_50058[2-1]
+_50110-_50112[2-1]
+_50164-_50166[2-1]
+_50218-_50220[2-1]
+_50212-_50214[2-1]])])])
+json([jsonrpc=2.0,id=6,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    print(_-_),
+    print(E),
+    nl,
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D.
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(A-B, C, D) :-
+    iranylistak(A-B, C, C, D).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [n, e, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),11=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),12=json([status=success,type=query,bindings=json([ILs=[[]]]),output=]),13=json([status=success,type=query,bindings=json([ILs=[[],[]]]),output=])])])
+json([jsonrpc=2.0,id=7,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D,
+    \+ member(_-_, E).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(A-B, C, D) :-
+    iranylistak(A-B, C, C, D).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [n, e, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),11=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),12=json([status=success,type=query,bindings=json([ILs=[[]]]),output=]),13=json([status=success,type=query,bindings=json([ILs=[[],[]]]),output=])])])
+json([jsonrpc=2.0,id=8,error=json([code= -4712,message=Exception,data=json([prolog_message=ERROR: Syntax error: Operator priority clash
+ERROR: is_pos_valid(Row-Col, MaxRow-MaxCol, Trees):
+ERROR: ** here **
+ERROR: -
+    Row >= 1,
+                    
+    Col >= 1,
+                    
+                                       
+
+check_tent_pos(MaxRow-MaxCol, Row-Col, Trees, [Dir | DirTail], [Dir | IL]):-
+    dir_pos(Dir, Row-Col, TentRow-TentCol),
+    is_pos_valid(TentRow-TentCol, MaxRow-MaxCol, Trees),
+    check_tent_pos(MaxRow-MaxCol, Row-Col, Trees, DirTail, IL). ])])])
+json([jsonrpc=2.0,id=9,error=json([code= -4712,message=Exception,data=json([prolog_message=ERROR: Syntax error: Operator priority clash
+ERROR: is_pos_valid(Row-Col, MaxRow-MaxCol, Trees):
+ERROR: ** here **
+ERROR: -
+    Row >= 1,
+    Row =< MaxRow,
+    Col >= 1,
+                    
+                                       
+
+check_tent_pos(MaxRow-MaxCol, Row-Col, Trees, [Dir | DirTail], [Dir | IL]):-
+    dir_pos(Dir, Row-Col, TentRow-TentCol),
+    is_pos_valid(TentRow-TentCol, MaxRow-MaxCol, Trees),
+    check_tent_pos(MaxRow-MaxCol, Row-Col, Trees, DirTail, IL). ])])])
+json([jsonrpc=2.0,id=10,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, _-_, C) :-
+    A>=1,
+    B>=1,
+    \+ member(_-_, C).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(A-B, C, D) :-
+    iranylistak(A-B, C, C, D).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [n, e, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),11=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),12=json([status=success,type=query,bindings=json([ILs=[[e,s]]]),output=]),13=json([status=success,type=query,bindings=json([ILs=[[e,s],[n,e,s]]]),output=])])])
+json([jsonrpc=2.0,id=11,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, _) :-
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D.
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(A-B, C, D) :-
+    iranylistak(A-B, C, C, D).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [n, e, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),11=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),12=json([status=success,type=query,bindings=json([ILs=[[e,s]]]),output=]),13=json([status=success,type=query,bindings=json([ILs=[[e],[n,e,s]]]),output=])])])
+json([jsonrpc=2.0,id=12,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D,
+    \+ member(A-B, E).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(A-B, C, D) :-
+    iranylistak(A-B, C, C, D).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [n, e, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),11=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),12=json([status=success,type=query,bindings=json([ILs=[[e,s]]]),output=]),13=json([status=success,type=query,bindings=json([ILs=[[e],[n,e,s]]]),output=]),14=json([status=success,type=query,bindings=json([ILs=[[e,s,w],[e,s,w],[n,e,s],[n,s,w],[n,e,s],[n,e,s,w],[n,e,w]]]),output=])])])
+json([jsonrpc=2.0,id=13,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D,
+    \+ member(A-B, E).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(A-B, C, D) :-
+    iranylistak(A-B, C, C, D).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [n, e, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),11=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),12=json([status=success,type=query,bindings=json([ILs=[[e,s]]]),output=]),13=json([status=success,type=query,bindings=json([ILs=[[e],[e,n,s]]]),output=]),14=json([status=success,type=query,bindings=json([ILs=[[e,s,w],[e,s,w],[e,n,s],[n,s,w],[e,n,s],[e,n,s,w],[e,n,w]]]),output=])])])
+json([jsonrpc=2.0,id=14,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D,
+    \+ member(A-B, E).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(A-B, C, D) :-
+    iranylistak(A-B, C, C, D).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [e, n, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),11=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),12=json([status=success,type=query,bindings=json([ILs=[[e,s]]]),output=]),13=json([status=success,type=query,bindings=json([ILs=[[e],[e,n,s]]]),output=]),14=json([status=success,type=query,bindings=json([ILs=[[e,s,w],[e,s,w],[e,n,s],[n,s,w],[e,n,s],[e,n,s,w],[e,n,w]]]),output=]),15=json([status=success,type=query,bindings=json([ILs=[[],[e,s,w],[e,n]]]),output=])])])
+json([jsonrpc=2.0,id=15,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D,
+    \+ member(A-B, E).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:ensure_dir_lists/1
+,retracted_clauses=json([])]),10=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),11=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(A-B, C, D) :-
+    iranylistak(A-B, C, C, D).
+])]),12=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),13=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [e, n, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),14=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),15=json([status=success,type=query,bindings=json([ILs=[[e,s]]]),output=]),16=json([status=success,type=query,bindings=json([ILs=[[e],[e,n,s]]]),output=]),17=json([status=success,type=query,bindings=json([ILs=[[e,s,w],[e,s,w],[e,n,s],[n,s,w],[e,n,s],[e,n,s,w],[e,n,w]]]),output=]),18=json([status=success,type=query,bindings=json([ILs=[[],[e,s,w],[e,n]]]),output=])])])
+json([jsonrpc=2.0,id=16,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D,
+    \+ member(A-B, E).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:ensure_dir_lists/1
+,retracted_clauses=json([user:ensure_dir_lists/1= :- dynamic ensure_dir_lists/1.
+
+ensure_dir_lists([]).
+ensure_dir_lists([A|B]) :-
+    length(A, C),
+    C>0,
+    ensure_dir_lists(B).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),11=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(A-B, C, D) :-
+    iranylistak(A-B, C, C, D).
+iranylistak(_, _, []).
+])]),12=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),13=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [e, n, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),14=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),15=json([status=success,type=query,bindings=json([ILs=[[e,s]]]),output=]),16=json([status=success,type=query,bindings=json([ILs=[[e],[e,n,s]]]),output=]),17=json([status=success,type=query,bindings=json([ILs=[[e,s,w],[e,s,w],[e,n,s],[n,s,w],[e,n,s],[e,n,s,w],[e,n,w]]]),output=]),18=json([status=success,type=query,bindings=json([ILs=[]]),output=])])])
+json([jsonrpc=2.0,id=17,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D,
+    \+ member(A-B, E).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:ensure_dir_lists/1
+,retracted_clauses=json([user:ensure_dir_lists/1= :- dynamic ensure_dir_lists/1.
+
+ensure_dir_lists([]).
+ensure_dir_lists([A|B]) :-
+    length(A, C),
+    C>0,
+    ensure_dir_lists(B).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),11=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(A-B, C, D) :-
+    iranylistak(A-B, C, C, D),
+    ensure_dir_lists(D).
+iranylistak(_, _, []).
+])]),12=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),13=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [e, n, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),14=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),15=json([status=success,type=query,bindings=json([ILs=[[e,s]]]),output=]),16=json([status=success,type=query,bindings=json([ILs=[[e],[e,n,s]]]),output=]),17=json([status=success,type=query,bindings=json([ILs=[[e,s,w],[e,s,w],[e,n,s],[n,s,w],[e,n,s],[e,n,s,w],[e,n,w]]]),output=]),18=json([status=error,error=json([code= -4711,message=Failure,data=json([prolog_message=])])])])])
+json([jsonrpc=2.0,id=18,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D,
+    \+ member(A-B, E).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:ensure_dir_lists/1
+,retracted_clauses=json([user:ensure_dir_lists/1= :- dynamic ensure_dir_lists/1.
+
+ensure_dir_lists([]).
+ensure_dir_lists([A|B]) :-
+    length(A, C),
+    C>0,
+    ensure_dir_lists(B).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),11=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(A-B, C, D) :-
+    !,
+    iranylistak(A-B, C, C, D),
+    ensure_dir_lists(D).
+iranylistak(_, _, []).
+])]),12=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),13=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [e, n, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),14=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),15=json([status=success,type=query,bindings=json([ILs=[[e,s]]]),output=]),16=json([status=success,type=query,bindings=json([ILs=[[e],[e,n,s]]]),output=]),17=json([status=success,type=query,bindings=json([ILs=[[e,s,w],[e,s,w],[e,n,s],[n,s,w],[e,n,s],[e,n,s,w],[e,n,w]]]),output=]),18=json([status=error,error=json([code= -4711,message=Failure,data=json([prolog_message=])])])])])
+json([jsonrpc=2.0,id=19,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D,
+    \+ member(A-B, E).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:ensure_dir_lists/1
+,retracted_clauses=json([user:ensure_dir_lists/1= :- dynamic ensure_dir_lists/1.
+
+ensure_dir_lists([]).
+ensure_dir_lists([A|B]) :-
+    length(A, C),
+    C>0,
+    ensure_dir_lists(B).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),11=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(A-B, C, D) :-
+    iranylistak(A-B, C, C, D),
+    !,
+    ensure_dir_lists(D).
+iranylistak(_, _, []).
+])]),12=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),13=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [e, n, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),14=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),15=json([status=success,type=query,bindings=json([ILs=[[e,s]]]),output=]),16=json([status=success,type=query,bindings=json([ILs=[[e],[e,n,s]]]),output=]),17=json([status=success,type=query,bindings=json([ILs=[[e,s,w],[e,s,w],[e,n,s],[n,s,w],[e,n,s],[e,n,s,w],[e,n,w]]]),output=]),18=json([status=success,type=query,bindings=json([ILs=[]]),output=])])])
+json([jsonrpc=2.0,id=20,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D,
+    \+ member(A-B, E).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:ensure_dir_lists/1
+,retracted_clauses=json([user:ensure_dir_lists/1= :- dynamic ensure_dir_lists/1.
+
+ensure_dir_lists([]).
+ensure_dir_lists([A|B]) :-
+    length(A, C),
+    C>0,
+    ensure_dir_lists(B).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),11=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(A-B, C, D) :-
+    iranylistak(A-B, C, C, D),
+    ensure_dir_lists(D),
+    !.
+iranylistak(_, _, []).
+])]),12=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),13=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [e, n, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),14=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),15=json([status=error,error=json([code= -4712,message=Exception,data=json([prolog_message=ERROR: >=/2: Arguments are not sufficiently instantiated])])]),16=json([status=error,error=json([code= -4712,message=Exception,data=json([prolog_message=ERROR: >=/2: Arguments are not sufficiently instantiated])])]),17=json([status=error,error=json([code= -4712,message=Exception,data=json([prolog_message=ERROR: >=/2: Arguments are not sufficiently instantiated])])]),18=json([status=error,error=json([code= -4712,message=Exception,data=json([prolog_message=ERROR: >=/2: Arguments are not sufficiently instantiated])])])])])
+json([jsonrpc=2.0,id=21,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D,
+    \+ member(A-B, E).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    is_pos_valid(I-J, A-B, E),
+    dir_pos(F, C-D, I-J),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:ensure_dir_lists/1
+,retracted_clauses=json([user:ensure_dir_lists/1= :- dynamic ensure_dir_lists/1.
+
+ensure_dir_lists([]).
+ensure_dir_lists([A|B]) :-
+    length(A, C),
+    C>0,
+    ensure_dir_lists(B).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),11=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(A-B, C, D) :-
+    iranylistak(A-B, C, C, D),
+    ensure_dir_lists(D),
+    !.
+iranylistak(_, _, []).
+])]),12=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),13=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [e, n, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),14=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),15=json([status=success,type=query,bindings=json([ILs=[[e,s]]]),output=]),16=json([status=success,type=query,bindings=json([ILs=[[e],[e,n,s]]]),output=]),17=json([status=success,type=query,bindings=json([ILs=[[e,s,w],[e,s,w],[e,n,s],[n,s,w],[e,n,s],[e,n,s,w],[e,n,w]]]),output=]),18=json([status=success,type=query,bindings=json([ILs=[]]),output=])])])
+json([jsonrpc=2.0,id=22,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D,
+    \+ member(A-B, E).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    dir_pos(F, C-D, I-J),
+    is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:ensure_dir_lists/1
+,retracted_clauses=json([user:ensure_dir_lists/1= :- dynamic ensure_dir_lists/1.
+
+ensure_dir_lists([]).
+ensure_dir_lists([A|B]) :-
+    length(A, C),
+    C>0,
+    ensure_dir_lists(B).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),11=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(A-B, C, D) :-
+    iranylistak(A-B, C, C, D),
+    ensure_dir_lists(D),
+    !.
+iranylistak(_, _, []).
+])]),12=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),13=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [e, n, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),14=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),15=json([status=error,error=json([code= -4712,message=Exception,data=json([prolog_message=ERROR: >=/2: Arguments are not sufficiently instantiated])])]),16=json([status=error,error=json([code= -4712,message=Exception,data=json([prolog_message=ERROR: >=/2: Arguments are not sufficiently instantiated])])]),17=json([status=error,error=json([code= -4712,message=Exception,data=json([prolog_message=ERROR: >=/2: Arguments are not sufficiently instantiated])])]),18=json([status=error,error=json([code= -4712,message=Exception,data=json([prolog_message=ERROR: >=/2: Arguments are not sufficiently instantiated])])])])])
+json([jsonrpc=2.0,id=23,result=json([1=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:dir_pos/3
+,retracted_clauses=json([user:dir_pos/3= :- dynamic dir_pos/3.
+
+dir_pos(n, A-B, C-B) :-
+    C is A-1.
+dir_pos(e, A-B, A-C) :-
+    C is B+1.
+dir_pos(s, A-B, C-B) :-
+    C is A+1.
+dir_pos(w, A-B, A-C) :-
+    C is B-1.
+])]),2=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),3=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),4=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),5=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:is_pos_valid/3
+,retracted_clauses=json([user:is_pos_valid/3= :- dynamic is_pos_valid/3.
+
+is_pos_valid(A-B, C-D, E) :-
+    A>=1,
+    A=<C,
+    B>=1,
+    B=<D,
+    \+ member(A-B, E).
+])]),6=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:check_tent_pos/5
+,retracted_clauses=json([user:check_tent_pos/5= :- dynamic check_tent_pos/5.
+
+check_tent_pos(A-B, C-D, E, [F|G], [F|H]) :-
+    is_pos_valid(I-J, A-B, E),
+    dir_pos(F, C-D, I-J),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(A-B, C-D, E, [F|G], H) :-
+    dir_pos(F, C-D, I-J),
+    \+ is_pos_valid(I-J, A-B, E),
+    check_tent_pos(A-B, C-D, E, G, H).
+check_tent_pos(_, _, _, [], []).
+])]),7=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),8=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),9=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:ensure_dir_lists/1
+,retracted_clauses=json([user:ensure_dir_lists/1= :- dynamic ensure_dir_lists/1.
+
+ensure_dir_lists([]).
+ensure_dir_lists([A|B]) :-
+    length(A, C),
+    C>0,
+    ensure_dir_lists(B).
+])]),10=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),11=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/3
+,retracted_clauses=json([user:iranylistak/3= :- dynamic iranylistak/3.
+
+iranylistak(A-B, C, D) :-
+    iranylistak(A-B, C, C, D),
+    ensure_dir_lists(D),
+    !.
+iranylistak(_, _, []).
+])]),12=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),13=json([status=success,type=clause_definition,bindings=json([]),output=% Asserting clauses for user:iranylistak/4
+,retracted_clauses=json([user:iranylistak/4= :- dynamic iranylistak/4.
+
+iranylistak(A-B, [C-D|E], F, [G|H]) :-
+    check_tent_pos(A-B,
+                   C-D,
+                   F,
+                   [e, n, s, w],
+                   G),
+    iranylistak(A-B, E, H).
+iranylistak(_, [], _, []).
+])]),14=json([status=success,type=clause_definition,bindings=json([]),output=,retracted_clauses=json([])]),15=json([status=success,type=query,bindings=json([ILs=[[e,s]]]),output=]),16=json([status=success,type=query,bindings=json([ILs=[[e],[e,n,s]]]),output=]),17=json([status=success,type=query,bindings=json([ILs=[[e,s,w],[e,s,w],[e,n,s],[n,s,w],[e,n,s],[e,n,s,w],[e,n,w]]]),output=]),18=json([status=success,type=query,bindings=json([ILs=[]]),output=])])])
